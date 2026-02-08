@@ -285,6 +285,66 @@ div.inhuman {
     text-align: left;
     border-right-style: solid;
 }
+div.cashdollar {
+    background-color: #9c27b0;
+    text-align: right;
+    border-left-style: solid;
+}
+div.planned {
+    background-color: #8bc34a;
+    text-align: left;
+    border-right-style: solid;
+}
+div.techy {
+    background-color: #9c27b0;
+    text-align: right;
+    border-left-style: solid;
+}
+div.monke {
+    background-color: #8bc34a;
+    text-align: left;
+    border-right-style: solid;
+}
+div.democracy {
+    background-color: #9c27b0;
+    text-align: right;
+    border-left-style: solid;
+}
+div.lithit {
+    background-color: #8bc34a;
+    text-align: left;
+    border-right-style: solid;
+}
+div.industry {
+    background-color: #9c27b0;
+    text-align: right;
+    border-left-style: solid;
+}
+div.natural {
+    background-color: #8bc34a;
+    text-align: left;
+    border-right-style: solid;
+}
+div.hiersexual {
+    background-color: #9c27b0;
+    text-align: right;
+    border-left-style: solid;
+}
+div.heterosexual {
+    background-color: #8bc34a;
+    text-align: left;
+    border-right-style: solid;
+}
+div.radical {
+    background-color: #9c27b0;
+    text-align: right;
+    border-left-style: solid;
+}
+div.boring {
+    background-color: #8bc34a;
+    text-align: left;
+    border-right-style: solid;
+}
 span.weight-300 {
     font-weight: 300;
 }
