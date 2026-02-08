@@ -103,7 +103,7 @@ img.quadcolumn:hover {
     transform: scale(1.05);
   }
 div.quadcolumn {
-    width: 50%;
+    width: 15%;
 }
 div.axis_name {
     color: #333333;
