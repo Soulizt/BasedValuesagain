@@ -48,19 +48,35 @@ stats"></a></div></noscript>
 
 <!-- JavaScript for the test itself -->
 <script>
-    var max_econ, max_dipl, max_govt, max_scty; // Max possible scores
-    max_econ = max_dipl = max_govt = max_scty = 0;
+    var max_econ, max_prop, max_scty, max_cult, max_agrs, max_ethi, max_mark, max_tech, max_dmoc, max_ntur, max_hier, max_radc; // Max possible scores
+    max_econ = max_prop = max_scty = max_cult = max_agrs = max_ethi = max_mark = max_tech = max_dmoc = max_ntur = max_hier = max_radc = 0;
     let econ_array = new Array(questions.length);
-    let dipl_array = new Array(questions.length);
-    let govt_array = new Array(questions.length);
+    let prop_array = new Array(questions.length);
     let scty_array = new Array(questions.length);
+    let cult_array = new Array(questions.length);
+    let agrs_array = new Array(questions.length);
+    let ethi_array = new Array(questions.length);
+    let mark_array = new Array(questions.length);
+    let tech_array = new Array(questions.length);
+    let dmoc_array = new Array(questions.length);
+    let ntur_array = new Array(questions.length);
+    let hier_array = new Array(questions.length);
+    let radc_array = new Array(questions.length);
     var qn = 0; // Question number
     init_question();
     for (var i = 0; i < questions.length; i++) {
         max_econ += Math.abs(questions[i].effect.econ)
-        max_dipl += Math.abs(questions[i].effect.dipl)
-        max_govt += Math.abs(questions[i].effect.govt)
+        max_prop += Math.abs(questions[i].effect.prop)
         max_scty += Math.abs(questions[i].effect.scty)
+        max_cult += Math.abs(questions[i].effect.cult)
+        max_agrs += Math.abs(questions[i].effect.agrs)
+        max_ethi += Math.abs(questions[i].effect.ethi)
+        max_mark += Math.abs(questions[i].effect.mark)
+        max_tech += Math.abs(questions[i].effect.tech)
+        max_dmoc += Math.abs(questions[i].effect.dmoc)
+        max_ntur += Math.abs(questions[i].effect.ntur)
+        max_hier += Math.abs(questions[i].effect.hier)
+        max_radc += Math.abs(questions[i].effect.radc)
     }
     function init_question() {
         document.getElementById("question-text").innerHTML = questions[qn].question;
@@ -77,9 +93,17 @@ stats"></a></div></noscript>
 
     function next_question(mult) {
         econ_array[qn] = mult*questions[qn].effect.econ
-        dipl_array[qn] = mult*questions[qn].effect.dipl
-        govt_array[qn] = mult*questions[qn].effect.govt
+        prop_array[qn] = mult*questions[qn].effect.prop
         scty_array[qn] = mult*questions[qn].effect.scty
+        cult_array[qn] = mult*questions[qn].effect.cult
+        agrs_array[qn] = mult*questions[qn].effect.agrs
+        ethi_array[qn] = mult*questions[qn].effect.ethi
+        mark_array[qn] = mult*questions[qn].effect.mark
+        tech_array[qn] = mult*questions[qn].effect.tech
+        dmoc_array[qn] = mult*questions[qn].effect.dmoc
+        ntur_array[qn] = mult*questions[qn].effect.ntur
+        hier_array[qn] = mult*questions[qn].effect.hier
+        radc_array[qn] = mult*questions[qn].effect.radc
         qn++;
         if (qn < questions.length) {
             init_question();
@@ -102,14 +126,31 @@ stats"></a></div></noscript>
 
     function results() {
         let final_econ = econ_array.reduce((a, b) => a + b, 0)
-        let final_dipl = dipl_array.reduce((a, b) => a + b, 0)
-        let final_govt = govt_array.reduce((a, b) => a + b, 0)
+        let final_prop = prop_array.reduce((a, b) => a + b, 0)
         let final_scty = scty_array.reduce((a, b) => a + b, 0)
+        let final_cult = cult_array.reduce((a, b) => a + b, 0)
+        let final_agrs = agrs_array.reduce((a, b) => a + b, 0)
+        let final_ethi = ethi_array.reduce((a, b) => a + b, 0)
+        let final_mark = mark_array.reduce((a, b) => a + b, 0)
+        let final_tech = tech_array.reduce((a, b) => a + b, 0)
+        let final_dmoc = dmoc_array.reduce((a, b) => a + b, 0)
+        let final_ntur = ntur_array.reduce((a, b) => a + b, 0)
+        let final_hier = hier_array.reduce((a, b) => a + b, 0)
+        let final_radc = radc_array.reduce((a, b) => a + b, 0)
         location.href = `results.html`
             + `?e=${calc_score(final_econ,max_econ)}`
-            + `&d=${calc_score(final_dipl,max_dipl)}`
-            + `&g=${calc_score(final_govt,max_govt)}`
+            + `&p=${calc_score(final_prop,max_prop)}`
             + `&s=${calc_score(final_scty,max_scty)}`
+            + `&c=${calc_score(final_cult,max_cult)}`
+            + `?a=${calc_score(final_agrs,max_agrs)}`
+            + `&h=${calc_score(final_ethi,max_ethi)}`
+            + `&m=${calc_score(final_mark,max_mark)}`
+            + `&t=${calc_score(final_tech,max_tech)}`
+            + `?d=${calc_score(final_dmoc,max_dmoc)}`
+            + `&n=${calc_score(final_ntur,max_ntur)}`
+            + `&i=${calc_score(final_hier,max_hier)}`
+            + `&r=${calc_score(final_radc,max_radc)}`
     }
 </script>
 </body>
+
