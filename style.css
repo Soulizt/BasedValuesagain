@@ -265,6 +265,16 @@ div.tradition {
     text-align: left;
     border-right-style: solid;
 }
+div.serenity {
+    background-color: #9c27b0;
+    text-align: right;
+    border-left-style: solid;
+}
+div.violence {
+    background-color: #8bc34a;
+    text-align: left;
+    border-right-style: solid;
+}
 span.weight-300 {
     font-weight: 300;
 }
