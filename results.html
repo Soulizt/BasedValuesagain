@@ -50,7 +50,7 @@
 <h2>Aggression Axis: <span class="weight-300" id="society-label"></span></h2>
 <div class="axis">
     <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
-    <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="peace"></div></div>
+    <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="serenity"></div></div>
     <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="violence"></div></div>
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
@@ -120,12 +120,12 @@ stats"></a></div></noscript>
     property     = getQueryVariable("p")
     individual   = getQueryVariable("s")
     progress  = getQueryVariable("c")
-    peace  = getQueryVariable("a")
+    serenity  = getQueryVariable("a")
     antiec    = (100 - economy).toFixed(1)
     commune     = (100 - property   ).toFixed(1)
     collect = (100 - individual ).toFixed(1)
     tradition = (100 - progress).toFixed(1)
-	violent = (100 - peace).toFixed(1)
+	violent = (100 - serenity).toFixed(1)
 
     setBarValue("equality", economy)
     setBarValue("wealth", antiec)
@@ -135,14 +135,14 @@ stats"></a></div></noscript>
     setBarValue("authority", collect)
     setBarValue("progress", progress)
     setBarValue("tradition", tradition)
-    setBarValue("peace", peace)
+    setBarValue("serenity", serenity)
     setBarValue("violence", violent)
 
     document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
     document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
     document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
     document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
-    document.getElementById("society-label").innerHTML = setLabel(peace, agrsArray)
+    document.getElementById("society-label").innerHTML = setLabel(serenity, agrsArray)
 
     ideology = ""
     ideodist = Infinity
