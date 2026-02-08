@@ -32,8 +32,25 @@ questions = [
             "hier": 0,
             "radc": 0
         }
+    },
+        "question": "AGRESSION TESTOR",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": 0,
+            "agrs": 10,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 0
+        }
     }
 ];
+
 
 
 
