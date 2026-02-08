@@ -66,8 +66,26 @@ questions = [
             "hier": 0,
             "radc": 0
         }
+    },
+    {
+        "question": "AMULTI TESTOR2",
+        "effect": {
+            "econ": 5,
+            "prop": -5,
+            "scty": 5,
+            "cult": 5,
+            "agrs": 10,
+            "ethi": -10,
+            "mark": -5,
+            "tech": 5,
+            "dmoc": 5,
+            "ntur": 10,
+            "hier": -10,
+            "radc": 10
+        }
     }
 ];
+
 
 
 
