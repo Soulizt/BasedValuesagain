@@ -47,6 +47,13 @@
     <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="progress"></div></div>
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
+<h2>Aggression Axis: <span class="weight-300" id="society-label"></span></h2>
+<div class="axis">
+    <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
+    <div class="bar tradition" id="bar-tradition"><div class="text-wrapper" id="peace"></div></div>
+    <div class="bar progress" id="bar-progress"><div class="text-wrapper" id="violence"></div></div>
+    <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
+</div>
 <h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
 <p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>
 <p>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism. </p>
@@ -95,6 +102,7 @@ stats"></a></div></noscript>
     propArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
     sctyArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
     cultArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+	agrsArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -112,10 +120,12 @@ stats"></a></div></noscript>
     property     = getQueryVariable("p")
     individual   = getQueryVariable("s")
     progress  = getQueryVariable("c")
+    peace  = getQueryVariable("a")
     antiec    = (100 - economy).toFixed(1)
     commune     = (100 - property   ).toFixed(1)
     collect = (100 - individual ).toFixed(1)
     tradition = (100 - progress).toFixed(1)
+	violent = (100 - peace).toFixed(1)
 
     setBarValue("equality", economy)
     setBarValue("wealth", antiec)
@@ -125,11 +135,14 @@ stats"></a></div></noscript>
     setBarValue("authority", collect)
     setBarValue("progress", progress)
     setBarValue("tradition", tradition)
+    setBarValue("peace", peace)
+    setBarValue("violence", violent)
 
     document.getElementById("economic-label").innerHTML = setLabel(equality, econArray)
     document.getElementById("diplomatic-label").innerHTML = setLabel(peace, diplArray)
     document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
     document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
+    document.getElementById("society-label").innerHTML = setLabel(peace, agrsArray)
 
     ideology = ""
     ideodist = Infinity
