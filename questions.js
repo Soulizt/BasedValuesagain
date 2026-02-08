@@ -17,7 +17,7 @@ questions = [
         }
     },
     {
-        "question": "Oppression by corporations is more of a concern than oppression by governments.",
+        "question": "Oppression by testing is more of a concern than sleep",
         "effect": {
             "econ": -10,
             "prop": -5,
@@ -32,8 +32,9 @@ questions = [
             "hier": 0,
             "radc": 0
         }
-    },
+    }
 ];
+
 
 
 
