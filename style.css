@@ -96,14 +96,14 @@ div.center {
     margin: auto;
 }
 img.quadcolumn {
-    width: 15%;
+    width: 15.16%;
     transition: transform .3s;
 }
 img.quadcolumn:hover {
     transform: scale(1.05);
   }
 div.quadcolumn {
-    width: 15%;
+    width: 15.16%;
 }
 div.axis_name {
     color: #333333;
