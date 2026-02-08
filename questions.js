@@ -33,6 +33,7 @@ questions = [
             "radc": 0
         }
     },
+    {
         "question": "AGRESSION TESTOR",
         "effect": {
             "econ": 0,
@@ -50,6 +51,7 @@ questions = [
         }
     }
 ];
+
 
 
 
