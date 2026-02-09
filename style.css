@@ -237,22 +237,22 @@ div.wealth {
 }
 div.peace {
     background-color: #cc4e00;
-    text-align: left;
+    text-align: right;
     border-right-style: solid;
 }
 div.might {
     background-color: #10bb82;
-    text-align: right;
+    text-align: left;
     border-left-style: solid;
 }
 div.liberty {
     background-color: #ffd21f;
-    text-align: right;
+    text-align: left;
     border-left-style: solid;
 }
 div.authority {
     background-color: #8c52ff;
-    text-align: left;
+    text-align: right;
     border-right-style: solid;
 }
 div.progress {
@@ -317,12 +317,12 @@ div.lithit {
 }
 div.industry {
     background-color: #3d1700;
-    text-align: right;
+    text-align: left;
     border-left-style: solid;
 }
 div.natural {
     background-color: #c7fae9;
-    text-align: left;
+    text-align: right;
     border-right-style: solid;
 }
 div.hiersexual {
