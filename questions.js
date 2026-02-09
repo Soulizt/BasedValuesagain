@@ -105,7 +105,7 @@ questions = [
         "question": "The collective is all that is important",
         "effect": {
             "econ": 10,
-            "prop": 50,
+            "prop": -5,
             "scty": 0,
             "cult": 0,
             "agrs": 0,
@@ -442,6 +442,7 @@ questions = [
         }
     },
 ];
+
 
 
 
