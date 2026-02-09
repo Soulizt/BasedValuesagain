@@ -104,9 +104,9 @@ questions = [
     {
         "question": "The collective is all that is important",
         "effect": {
-            "econ": 10,
-            "prop": -5,
-            "scty": 0,
+            "econ": 0,
+            "prop": 5,
+            "scty": -10,
             "cult": 0,
             "agrs": 0,
             "ethi": 0,
@@ -156,8 +156,8 @@ questions = [
         "question": "ACAB",
         "effect": {
             "econ": 0,
-            "prop": 10,
-            "scty": 0,
+            "prop": 0,
+            "scty": 10,
             "cult": 5,
             "agrs": 5,
             "ethi": 0,
@@ -377,7 +377,7 @@ questions = [
         "question": "The economy is a myth",
         "effect": {
             "econ": -10,
-            "prop": -5,
+            "prop": 5,
             "scty": 0,
             "cult": 0,
             "agrs": 0,
@@ -442,6 +442,7 @@ questions = [
         }
     },
 ];
+
 
 
 
