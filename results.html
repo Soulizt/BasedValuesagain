@@ -61,6 +61,49 @@
     <div class="bar human" id="bar-human"><div class="text-wrapper" id="human"></div></div>
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
+<h2>Markets Axis: <span class="weight-300" id="cashdollar-label"></span></h2>
+<div class="axis">
+    <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
+    <div class="bar planned" id="bar-planned"><div class="text-wrapper" id="planned"></div></div>
+    <div class="bar cashdollar" id="bar-cashdollar"><div class="text-wrapper" id="cashdollar"></div></div>
+    <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
+</div>
+<h2>Technology Axis: <span class="weight-300" id="techy-label"></span></h2>
+<div class="axis">
+    <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
+    <div class="bar monke" id="bar-monke"><div class="text-wrapper" id="monke"></div></div>
+    <div class="bar techy" id="bar-techy"><div class="text-wrapper" id="techy"></div></div>
+    <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
+</div>
+<h2>Participation Axis: <span class="weight-300" id="democracy-label"></span></h2>
+<div class="axis">
+    <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
+    <div class="bar lithit" id="bar-lithit"><div class="text-wrapper" id="lithit"></div></div>
+    <div class="bar democracy" id="bar-democracy"><div class="text-wrapper" id="democracy"></div></div>
+    <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
+</div>
+<h2>Environment Axis: <span class="weight-300" id="natural-label"></span></h2>
+<div class="axis">
+    <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
+    <div class="bar industry" id="bar-industry"><div class="text-wrapper" id="industry"></div></div>
+    <div class="bar natural" id="bar-natural"><div class="text-wrapper" id="natural"></div></div>
+    <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
+</div>
+<h2>Structure Axis: <span class="weight-300" id="hiersexual-label"></span></h2>
+<div class="axis">
+    <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
+    <div class="bar heterosexual" id="bar-heterosexual"><div class="text-wrapper" id="heterosexual"></div></div>
+    <div class="bar hiersexual" id="bar-hiersexual"><div class="text-wrapper" id="hiersexual"></div></div>
+    <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
+</div>
+<h2>Radicality Axis: <span class="weight-300" id="radical-label"></span></h2>
+<div class="axis">
+    <img id="img-tradition" src="value_images/tradition.svg" height="128pt"/>
+    <div class="bar boring" id="bar-boring"><div class="text-wrapper" id="boring"></div></div>
+    <div class="bar radical" id="bar-radical"><div class="text-wrapper" id="radical"></div></div>
+    <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
+</div>
+
 <h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
 <p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>
 <p>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism. </p>
@@ -111,6 +154,12 @@ stats"></a></div></noscript>
     cultArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
 	agrsArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
 	ethiArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+	markArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+    techArray = ["Communist","Socialist","Social","Centrist","Market","Capitalist","Laissez-Faire"]
+    dmocArray = ["Cosmopolitan","Internationalist","Peaceful","Balanced","Patriotic","Nationalist","Chauvinist"]
+    nturArray = ["Anarchist","Libertarian","Liberal","Moderate","Statist","Authoritarian","Totalitarian"]
+    hierArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
+	radcArray = ["Revolutionary","Very Progressive","Progressive","Neutral","Traditional","Very Traditional","Reactionary"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -130,12 +179,24 @@ stats"></a></div></noscript>
     progress  = getQueryVariable("c")
     serenity  = getQueryVariable("a")
 	human = getQueryVariable("h")
+	cashdollar = getQueryVariable("m")
+    techy   = getQueryVariable("t")
+    democracy  = getQueryVariable("d")
+    natural  = getQueryVariable("n")
+	hiersexual = getQueryVariable("i")
+	radical = getQueryVariable("r")
     antiec    = (100 - economy).toFixed(1)
     commune     = (100 - property   ).toFixed(1)
     collect = (100 - individual ).toFixed(1)
     tradition = (100 - progress).toFixed(1)
 	violent = (100 - serenity).toFixed(1)
 	inhuman = (100 - human).toFixed(1)
+	planned = (100 - cashdollar).toFixed(1)
+    monke = (100 - techy ).toFixed(1)
+    lithit = (100 - democracy).toFixed(1)
+	industry = (100 - natural).toFixed(1)
+	heterosexual = (100 - hiersexual).toFixed(1)
+	boring = (100 - radical).toFixed(1)
 
     setBarValue("equality", economy)
     setBarValue("wealth", antiec)
@@ -149,6 +210,18 @@ stats"></a></div></noscript>
     setBarValue("violence", violent)
 	setBarValue("human", human)
     setBarValue("inhuman", inhuman)
+	setBarValue("cashdollar", cashdollar)
+    setBarValue("planned", planned)
+    setBarValue("techy", techy)
+    setBarValue("monke", monke)
+    setBarValue("democracy", democracy)
+    setBarValue("lithit", lithit)
+    setBarValue("natural", natural)
+    setBarValue("industry", industry)
+	setBarValue("hiersexual", hiersexual)
+    setBarValue("heterosexual", heterosexual)
+	setBarValue("radical", radical)
+    setBarValue("boring", boring)
 
     document.getElementById("economic-label").innerHTML = setLabel(economy, econArray)
     document.getElementById("diplomatic-label").innerHTML = setLabel(property, propArray)
@@ -156,6 +229,12 @@ stats"></a></div></noscript>
     document.getElementById("society-label").innerHTML = setLabel(progress, cultArray)
     document.getElementById("serenity-label").innerHTML = setLabel(serenity, agrsArray)
 	document.getElementById("human-label").innerHTML = setLabel(human, ethiArray)
+	document.getElementById("cashdollar-label").innerHTML = setLabel(cashdollar, markArray)
+    document.getElementById("techy-label").innerHTML = setLabel(techy, techArray)
+    document.getElementById("democracy-label").innerHTML = setLabel(democracy, dmocArray)
+    document.getElementById("natural-label").innerHTML = setLabel(natural, nturArray)
+	document.getElementById("hiersexual-label").innerHTML = setLabel(hiersexual, hierArray)
+	document.getElementById("radical-label").innerHTML = setLabel(radical, radcArray)
 
     ideology = ""
     ideodist = Infinity
