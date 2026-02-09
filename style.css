@@ -226,122 +226,122 @@ div.text-wrapper {
     display: inline-block;
 }
 div.equality {
-    background-color: #f44336;
+    background-color: #ff3131;
     text-align: left;
     border-right-style: solid;
 }
 div.wealth {
-    background-color: #00897b;
-    text-align: right;
-    border-left-style: solid;
-}
-div.liberty {
-    background-color: #ffeb3b;
-    text-align: left;
-    border-right-style: solid;
-}
-div.authority {
-    background-color: #3f51b5;
+    background-color: #1800ad;
     text-align: right;
     border-left-style: solid;
 }
 div.peace {
-    background-color: #03a9f4;
+    background-color: #cc4e00;
+    text-align: left;
+    border-right-style: solid;
+}
+div.might {
+    background-color: #10bb82;
     text-align: right;
     border-left-style: solid;
 }
-div.might {
-    background-color: #ff9800;
+div.liberty {
+    background-color: #ffd21f;
+    text-align: right;
+    border-left-style: solid;
+}
+div.authority {
+    background-color: #8c52ff;
     text-align: left;
     border-right-style: solid;
 }
 div.progress {
-    background-color: #9c27b0;
+    background-color: #ff66c4;
     text-align: right;
     border-left-style: solid;
 }
 div.tradition {
-    background-color: #8bc34a;
+    background-color: #2e6417;
     text-align: left;
     border-right-style: solid;
 }
 div.serenity {
-    background-color: #9c27b0;
+    background-color: #d9f4cd;
     text-align: right;
     border-left-style: solid;
 }
 div.violence {
-    background-color: #8bc34a;
+    background-color: #661414;
     text-align: left;
     border-right-style: solid;
 }
 div.human {
-    background-color: #9c27b0;
+    background-color: #38b6ff;
     text-align: right;
     border-left-style: solid;
 }
 div.inhuman {
-    background-color: #8bc34a;
+    background-color: #ff5757;
     text-align: left;
     border-right-style: solid;
 }
 div.cashdollar {
-    background-color: #9c27b0;
+    background-color: #004e7a;
     text-align: right;
     border-left-style: solid;
 }
 div.planned {
-    background-color: #8bc34a;
+    background-color: #78004a;
     text-align: left;
     border-right-style: solid;
 }
 div.techy {
-    background-color: #9c27b0;
+    background-color: #0cc0df;
     text-align: right;
     border-left-style: solid;
 }
 div.monke {
-    background-color: #8bc34a;
+    background-color: #7ed957;
     text-align: left;
     border-right-style: solid;
 }
 div.democracy {
-    background-color: #9c27b0;
+    background-color: #401268;
     text-align: right;
     border-left-style: solid;
 }
 div.lithit {
-    background-color: #8bc34a;
+    background-color: #bfecac;
     text-align: left;
     border-right-style: solid;
 }
 div.industry {
-    background-color: #9c27b0;
+    background-color: #3d1700;
     text-align: right;
     border-left-style: solid;
 }
 div.natural {
-    background-color: #8bc34a;
+    background-color: #c7fae9;
     text-align: left;
     border-right-style: solid;
 }
 div.hiersexual {
-    background-color: #9c27b0;
+    background-color: #5170ff;
     text-align: right;
     border-left-style: solid;
 }
 div.heterosexual {
-    background-color: #8bc34a;
+    background-color: #cc007e;
     text-align: left;
     border-right-style: solid;
 }
 div.radical {
-    background-color: #9c27b0;
+    background-color: #003d20;
     text-align: right;
     border-left-style: solid;
 }
 div.boring {
-    background-color: #8bc34a;
+    background-color: #a1f7da;
     text-align: left;
     border-right-style: solid;
 }
