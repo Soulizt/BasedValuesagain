@@ -51,6 +51,23 @@ questions = [
         }
     },
     {
+        "question": "Violence can sometimes be excused",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": 0,
+            "agrs": -10,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 0
+        }
+    },
+    {
         "question": "Anarcho-Monarchism is preferable to Direct Democracy",
         "effect": {
             "econ": 0,
@@ -68,6 +85,23 @@ questions = [
         }
     },
     {
+        "question": "Nobody is above the market",
+        "effect": {
+            "econ": 10,
+            "prop": 10,
+            "scty": -10,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 10,
+            "tech": 0,
+            "dmoc": -5,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 0
+        }
+    },
+    {
         "question": "I subscribe to an economic school of thought",
         "effect": {
             "econ": 10,
@@ -81,6 +115,40 @@ questions = [
             "dmoc": 0,
             "ntur": 0,
             "hier": 0,
+            "radc": 0
+        }
+    },
+    {
+        "question": "The end is always more important than the means",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": 0,
+            "agrs": 10,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 10
+        }
+    },
+    {
+        "question": "Legislation should not exist",
+        "effect": {
+            "econ": -5,
+            "prop": 0,
+            "scty": 5,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": -5,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": -10,
+            "ntur": 0,
+            "hier": -5,
             "radc": 0
         }
     },
@@ -133,6 +201,40 @@ questions = [
             "ntur": 0,
             "hier": 0,
             "radc": 0
+        }
+    },
+    {
+        "question": "Stalinism is preferable to avaritionism",
+        "effect": {
+            "econ": 0,
+            "prop": 5,
+            "scty": 0,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": -5,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 0
+        }
+    },
+    {
+        "question": "Violence is never acceptable",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": 0,
+            "agrs": 10,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
+            "radc": -5
         }
     },
     {
@@ -272,6 +374,40 @@ questions = [
         }
     },
     {
+        "question": "Some will always be better off than others, and that is okay.",
+        "effect": {
+            "econ": 5,
+            "prop": 10,
+            "scty": 0,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 10,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 10,
+            "radc": 0
+        }
+    },
+    {
+        "question": "The only rights we have are the ones we give ourselves",
+        "effect": {
+            "econ": -5,
+            "prop": 0,
+            "scty": 10,
+            "cult": 10,
+            "agrs": 0,
+            "ethi": -10,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 0
+        }
+    },
+    {
         "question": "Technology should be developed in order to curb and reverse climate change",
         "effect": {
             "econ": 0,
@@ -302,6 +438,23 @@ questions = [
             "dmoc": 0,
             "ntur": 0,
             "hier": -5,
+            "radc": 0
+        }
+    },
+        {
+        "question": "We must radically alter our consumption to prevent climate change",
+        "effect": {
+            "econ": -5,
+            "prop": 0,
+            "scty": 0,
+            "cult": -5,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 0,
+            "tech": -5,
+            "dmoc": 0,
+            "ntur": 10,
+            "hier": 0,
             "radc": 0
         }
     },
@@ -353,6 +506,23 @@ questions = [
             "dmoc": 0,
             "ntur": 0,
             "hier": -10,
+            "radc": 0
+        }
+    },
+        {
+        "question": "We have inalienable rights",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": -10,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 10,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
             "radc": 0
         }
     },
@@ -408,6 +578,23 @@ questions = [
         }
     },
     {
+        "question": "Voluntary hierarchy is real",
+        "effect": {
+            "econ": 0,
+            "prop": 10,
+            "scty": 0,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 10,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 10,
+            "radc": 0
+        }
+    },
+    {
         "question": "We are only individuals.",
         "effect": {
             "econ": 0,
@@ -421,6 +608,23 @@ questions = [
             "dmoc": 0,
             "ntur": 0,
             "hier": -5,
+            "radc": 0
+        }
+    },
+    {
+        "question": "One thing that's great about the market is that everyone can participate",
+        "effect": {
+            "econ": 5,
+            "prop": 10,
+            "scty": -10,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 10,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
             "radc": 0
         }
     },
@@ -441,7 +645,42 @@ questions = [
             "radc": 0
         }
     },
+    {
+        "question": "Privatisation of the state is acceptable if it cannot be abolished",
+        "effect": {
+            "econ": 10,
+            "prop": -10,
+            "scty": 0,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 10,
+            "tech": 0,
+            "dmoc": -5,
+            "ntur": 0,
+            "hier": 10,
+            "radc": -10
+        }
+    },
+    {
+        "question": "Theft is not a crime",
+        "effect": {
+            "econ": -10,
+            "prop": 10,
+            "scty": 10,
+            "cult": 5,
+            "agrs": 0,
+            "ethi": -10,
+            "mark": -5,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": -10,
+            "radc": 0
+        }
+    },
 ];
+
 
 
 
