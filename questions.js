@@ -363,7 +363,7 @@ questions = [
             "prop": 0,
             "scty": 0,
             "cult": 0,
-            "agrs": 10,
+            "agrs": -10,
             "ethi": 0,
             "mark": 0,
             "tech": 0,
@@ -460,19 +460,19 @@ questions = [
         }
     },
     {
-        "question": "The rich should be executed",
+        "question": "Those who are not welcome should be executed or imprisoned",
         "effect": {
             "econ": 0,
-            "prop": -5,
-            "scty": 0,
-            "cult": 0,
+            "prop": 0,
+            "scty": -5,
+            "cult": -10,
             "agrs": -10,
             "ethi": 0,
-            "mark": -5,
+            "mark": 0,
             "tech": 0,
             "dmoc": 0,
             "ntur": 0,
-            "hier": 0,
+            "hier": 10,
             "radc": 5
         }
     },
@@ -585,7 +585,7 @@ questions = [
             "prop": 10,
             "scty": -10,
             "cult": 0,
-            "agrs": 5,
+            "agrs": -5,
             "ethi": 0,
             "mark": 10,
             "tech": 0,
@@ -755,7 +755,7 @@ questions = [
             "prop": 0,
             "scty": 0,
             "cult": -10,
-            "agrs": 5,
+            "agrs": -5,
             "ethi": 0,
             "mark": 0,
             "tech": 0,
@@ -905,7 +905,7 @@ questions = [
         "question": "All property is a myth",
         "effect": {
             "econ": -10,
-            "prop": 10,
+            "prop": 20,
             "scty": 0,
             "cult": 0,
             "agrs": 0,
@@ -970,6 +970,7 @@ questions = [
         }
     }
 ];
+
 
 
 
