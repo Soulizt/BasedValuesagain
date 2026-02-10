@@ -172,19 +172,19 @@ stats"></a></div></noscript>
         if (val >= 0) { return ary[6] } else
         	{return ""}
     }
-
-    economy  = getQueryVariable("e")
-    property     = getQueryVariable("p")
-    individual   = getQueryVariable("s")
-    progress  = getQueryVariable("c")
-    serenity  = getQueryVariable("a")
-	human = getQueryVariable("h")
-	cashdollar = getQueryVariable("m")
-    techy   = getQueryVariable("t")
-    democracy  = getQueryVariable("d")
-    natural  = getQueryVariable("n")
-	hiersexual = getQueryVariable("i")
-	radical = getQueryVariable("r")
+	
+	economy     = Number(getQueryVariable("e"))
+	property    = Number(getQueryVariable("p"))
+	individual  = Number(getQueryVariable("s"))
+	progress    = Number(getQueryVariable("c"))
+	serenity    = Number(getQueryVariable("a"))
+	human       = Number(getQueryVariable("h"))
+	cashdollar  = Number(getQueryVariable("m"))
+	techy       = Number(getQueryVariable("t"))
+	democracy   = Number(getQueryVariable("d"))
+	natural     = Number(getQueryVariable("n"))
+	hiersexual  = Number(getQueryVariable("i"))
+	radical     = Number(getQueryVariable("r"))
     antiec    = (100 - economy).toFixed(1)
     commune     = (100 - property   ).toFixed(1)
     collect = (100 - individual ).toFixed(1)
