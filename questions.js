@@ -17,6 +17,40 @@ questions = [
         }
     },
     {
+        "question": "The collective is oppressive",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 10,
+            "cult": 5,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": -10,
+            "ntur": 0,
+            "hier": -10,
+            "radc": 0
+        }
+    },
+    {
+        "question": "Prisons are wrong",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 10,
+            "cult": 5,
+            "agrs": 10,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": -10,
+            "radc": 0
+        }
+    },
+    {
         "question": "Money should be abolished",
         "effect": {
             "econ": -10,
@@ -85,10 +119,44 @@ questions = [
         }
     },
     {
+        "question": "I consider myself to be radical",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 10
+        }
+    },
+    {
+        "question": "Gender is not real",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": 10,
+            "agrs": 0,
+            "ethi": -5,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 0
+        }
+    },
+    {
         "question": "Nobody is above the market",
         "effect": {
             "econ": 10,
-            "prop": 10,
+            "prop": -10,
             "scty": -10,
             "cult": 0,
             "agrs": 0,
@@ -125,7 +193,7 @@ questions = [
             "prop": 0,
             "scty": 0,
             "cult": 0,
-            "agrs": 10,
+            "agrs": -10,
             "ethi": 0,
             "mark": 0,
             "tech": 0,
@@ -133,6 +201,23 @@ questions = [
             "ntur": 0,
             "hier": 0,
             "radc": 10
+        }
+    },
+    {
+        "question": "Technology should be utilised. After all, we did work for it.",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 10,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 0
         }
     },
     {
@@ -150,6 +235,40 @@ questions = [
             "ntur": 0,
             "hier": -5,
             "radc": 0
+        }
+    },
+    {
+        "question": "Stirner had better ideas than Marx",
+        "effect": {
+            "econ": -5,
+            "prop": 0,
+            "scty": 10,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": -5,
+            "ntur": 0,
+            "hier": -10,
+            "radc": 0
+        }
+    },
+    {
+        "question": "Radical ideas do not correlate with radical actions",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 10
         }
     },
     {
@@ -187,6 +306,23 @@ questions = [
         }
     },
     {
+        "question": "It is impossible to exploit workers",
+        "effect": {
+            "econ": 10,
+            "prop": -10,
+            "scty": 0,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 10,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 0
+        }
+    },
+    {
         "question": "Religion is antiquated and has no place in a modern society",
         "effect": {
             "econ": 0,
@@ -204,19 +340,36 @@ questions = [
         }
     },
     {
-        "question": "Stalinism is preferable to avaritionism",
+        "question": "The NAP makes sense",
         "effect": {
             "econ": 0,
-            "prop": 5,
+            "prop": -5,
             "scty": 0,
             "cult": 0,
             "agrs": 0,
             "ethi": 0,
-            "mark": -5,
+            "mark": 5,
             "tech": 0,
             "dmoc": 0,
             "ntur": 0,
             "hier": 0,
+            "radc": 0
+        }
+    },
+    {
+        "question": "Even in an anarchist society, we need armed peacekeepers to prevent regression",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": 0,
+            "agrs": 10,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 10,
             "radc": 0
         }
     },
@@ -254,6 +407,7 @@ questions = [
             "radc": 0
         }
     },
+    
     {
         "question": "ACAB",
         "effect": {
@@ -289,6 +443,40 @@ questions = [
         }
     },
     {
+        "question": "A productive entity works better when managed vertically rather than horizontally",
+        "effect": {
+            "econ": 10,
+            "prop": 0,
+            "scty": -10,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 5,
+            "tech": 0,
+            "dmoc": -5,
+            "ntur": 0,
+            "hier": 10,
+            "radc": 0
+        }
+    },
+    {
+        "question": "The rich should be executed",
+        "effect": {
+            "econ": 0,
+            "prop": -5,
+            "scty": 0,
+            "cult": 0,
+            "agrs": -10,
+            "ethi": 0,
+            "mark": -5,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 5
+        }
+    },
+    {
         "question": "The strongest in society should survive, and the weak should not",
         "effect": {
             "econ": 0,
@@ -302,6 +490,23 @@ questions = [
             "dmoc": -5,
             "ntur": 0,
             "hier": 10,
+            "radc": 0
+        }
+    },
+    {
+        "question": "We would be better off if the economy didn't exist",
+        "effect": {
+            "econ": -10,
+            "prop": 0,
+            "scty": 5,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
             "radc": 0
         }
     },
@@ -340,6 +545,23 @@ questions = [
         }
     },
     {
+        "question": "We should be able to choose who to let in to our communities",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": -5,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 10,
+            "radc": 0
+        }
+    },
+    {
         "question": "Markets are inefficient and exploitative",
         "effect": {
             "econ": 0,
@@ -353,6 +575,23 @@ questions = [
             "dmoc": 0,
             "ntur": 0,
             "hier": -5,
+            "radc": 0
+        }
+    },
+    {
+        "question": "It is okay that, in a market economy, a worker will die if they do not have a job",
+        "effect": {
+            "econ": 10,
+            "prop": 10,
+            "scty": -10,
+            "cult": 0,
+            "agrs": 5,
+            "ethi": 0,
+            "mark": 10,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 10,
             "radc": 0
         }
     },
@@ -441,7 +680,7 @@ questions = [
             "radc": 0
         }
     },
-        {
+    {
         "question": "We must radically alter our consumption to prevent climate change",
         "effect": {
             "econ": -5,
@@ -509,7 +748,24 @@ questions = [
             "radc": 0
         }
     },
-        {
+    {
+        "question": "There will always be an outgroup",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": -10,
+            "agrs": 5,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 10,
+            "radc": 0
+        }
+    },
+    {
         "question": "We have inalienable rights",
         "effect": {
             "econ": 0,
@@ -578,10 +834,27 @@ questions = [
         }
     },
     {
+        "question": "Abortion is imorral",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": -10,
+            "agrs": 0,
+            "ethi": 10,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 0
+        }
+    },
+    {
         "question": "Voluntary hierarchy is real",
         "effect": {
             "econ": 0,
-            "prop": 10,
+            "prop": -10,
             "scty": 0,
             "cult": 0,
             "agrs": 0,
@@ -615,7 +888,7 @@ questions = [
         "question": "One thing that's great about the market is that everyone can participate",
         "effect": {
             "econ": 5,
-            "prop": 10,
+            "prop": -10,
             "scty": -10,
             "cult": 0,
             "agrs": 0,
@@ -679,7 +952,25 @@ questions = [
             "radc": 0
         }
     },
+    {
+        "question": "Ultimately, human comfort and joy should be our priority",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": 10,
+            "agrs": 0,
+            "ethi": -5,
+            "mark": 0,
+            "tech": 5,
+            "dmoc": 0,
+            "ntur": -10,
+            "hier": -10,
+            "radc": 0
+        }
+    }
 ];
+
 
 
 
