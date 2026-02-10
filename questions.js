@@ -34,6 +34,23 @@ questions = [
         }
     },
     {
+        "question": "Democracy is healthy for a society",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": -5,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 10,
+            "ntur": 0,
+            "hier": 0,
+            "radc": 0
+        }
+    },
+    {
         "question": "Prisons are wrong",
         "effect": {
             "econ": 0,
@@ -64,6 +81,23 @@ questions = [
             "dmoc": 0,
             "ntur": 0,
             "hier": -5,
+            "radc": 0
+        }
+    },
+    {
+        "question": "It would be better for the environment if humans never existed",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": 0,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 0,
+            "tech": -5,
+            "dmoc": 0,
+            "ntur": 10,
+            "hier": 0,
             "radc": 0
         }
     },
@@ -318,6 +352,23 @@ questions = [
             "tech": 0,
             "dmoc": 0,
             "ntur": 0,
+            "hier": 0,
+            "radc": 0
+        }
+    },
+    {
+        "question": "We should put effort into protecting the environment",
+        "effect": {
+            "econ": 0,
+            "prop": 0,
+            "scty": 0,
+            "cult": 5,
+            "agrs": 0,
+            "ethi": 0,
+            "mark": 0,
+            "tech": 0,
+            "dmoc": 0,
+            "ntur": 10,
             "hier": 0,
             "radc": 0
         }
@@ -970,6 +1021,7 @@ questions = [
         }
     }
 ];
+
 
 
 
