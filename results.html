@@ -104,7 +104,7 @@
     <img id="img-progress" src="axisicons/rev.png" height="128pt"/>
 </div>
 
-<h2>Closest Match: <b>WIP</b> <span class="weight-300" id="ideology-label"></span></h2>
+<h2>Closest Match: <span class="weight-300" id="ideology-label"></span></h2>
 <p>Ideological matching is a work in progress, and is much less accurate than the values and axes.</p>
 <p>You can send these results by copying and pasting the URL at the top of the page or using the image below. Think your matched ideology was wrong? Want to help us calibrate the test? Send the results along with your political ideology to us at eightvalues@gmail.com, or send us any comments, questions, or criticism. </p>
 <hr/>
@@ -240,10 +240,18 @@ stats"></a></div></noscript>
     ideodist = Infinity
     for (var i = 0; i < ideologies.length; i++) {
         dist = 0
-        dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2)
-        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063)
-        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.econ - economy), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.prop - property), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.scty - individual), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.cult - progress), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.agrs - serenity), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.ethi - human), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.mark - cashdollar), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.tech - techy), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.dmoc - democracy), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.ntur - natural), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.hier - hiersexual), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.radc - radical), 1.73856063)
         if (dist < ideodist) {
             ideology = ideologies[i].name
             ideodist = dist
