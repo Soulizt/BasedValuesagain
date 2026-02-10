@@ -236,30 +236,26 @@ stats"></a></div></noscript>
 	document.getElementById("hiersexual-label").innerHTML = setLabel(hiersexual, hierArray)
 	document.getElementById("radical-label").innerHTML = setLabel(radical, radcArray)
 
-let ideology = ""
-let ideodist = Infinity
-
-for (let i = 0; i < ideologies.length; i++) {
-    let dist = 0
-
-    dist += Math.pow(Math.abs(ideologies[i].stats.econ - economy), 2)
-    dist += Math.pow(Math.abs(ideologies[i].stats.prop - property), 2)
-    dist += Math.pow(Math.abs(ideologies[i].stats.scty - individual), 2)
-    dist += Math.pow(Math.abs(ideologies[i].stats.cult - progress), 2)
-    dist += Math.pow(Math.abs(ideologies[i].stats.agrs - serenity), 2)
-    dist += Math.pow(Math.abs(ideologies[i].stats.ethi - human), 2)
-    dist += Math.pow(Math.abs(ideologies[i].stats.mark - cashdollar), 2)
-    dist += Math.pow(Math.abs(ideologies[i].stats.tech - techy), 2)
-    dist += Math.pow(Math.abs(ideologies[i].stats.dmoc - democracy), 2)
-    dist += Math.pow(Math.abs(ideologies[i].stats.ntur - natural), 2)
-    dist += Math.pow(Math.abs(ideologies[i].stats.hier - hiersexual), 2)
-    dist += Math.pow(Math.abs(ideologies[i].stats.radc - radical), 1.73856063)
-
-    if (dist < ideodist) {
-        ideodist = dist
-        ideology = ideologies[i].name
-    }
-}
+    ideology = ""
+    ideodist = Infinity
+    for (var i = 0; i < ideologies.length; i++) {
+        dist = 0
+        dist += Math.pow(Math.abs(ideologies[i].stats.econ - economy), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.prop - property), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.scty - individual), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.cult - progress), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.agrs - serenity), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.ethi - human), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.mark - cashdollar), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.tech - techy), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.dmoc - democracy), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.ntur - natural), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.hier - hiersexual), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.radc - radical), 1.73856063)
+        if (dist < ideodist) {
+            ideology = ideologies[i].name
+            ideodist = dist
+        }
     }
     document.getElementById("ideology-label").innerHTML = ideology
 
