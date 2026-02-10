@@ -3,7 +3,7 @@ questions = [
         "question": "Private property is exploitative",
         "effect": {
             "econ": 0,
-            "prop": 10,
+            "prop": 20,
             "scty": 0,
             "cult": 0,
             "agrs": 0,
@@ -973,7 +973,7 @@ questions = [
         "question": "Privatisation of the state is acceptable if it cannot be abolished",
         "effect": {
             "econ": 10,
-            "prop": -10,
+            "prop": -20,
             "scty": 0,
             "cult": 0,
             "agrs": 0,
@@ -1021,6 +1021,7 @@ questions = [
         }
     }
 ];
+
 
 
 
