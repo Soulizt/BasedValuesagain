@@ -1,22 +1,5 @@
 ideologies = [
     {
-        "name": "Templateism",
-        "stats": {
-            "econ": ,
-            "prop": ,
-            "scty": ,
-            "cult": ,
-            "agrs": ,
-            "ethi": ,
-            "mark": ,
-            "tech": ,
-            "dmoc": ,
-            "ntur": ,
-            "hier": ,
-            "radc": 
-        }
-    },
-    {
         "name": "Egoism",
         "stats": {
             "econ": 10,
@@ -221,4 +204,5 @@ ideologies = [
         }
     },
 ];
+
 
