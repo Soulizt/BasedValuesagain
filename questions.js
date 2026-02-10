@@ -265,7 +265,7 @@ questions = [
             "ethi": -5,
             "mark": 0,
             "tech": 0,
-            "dmoc": -10,
+            "dmoc": -20,
             "ntur": 0,
             "hier": -5,
             "radc": 0
@@ -487,7 +487,7 @@ questions = [
             "ethi": 0,
             "mark": 0,
             "tech": 0,
-            "dmoc": -10,
+            "dmoc": -20,
             "ntur": 0,
             "hier": 0,
             "radc": 10
@@ -1021,6 +1021,7 @@ questions = [
         }
     }
 ];
+
 
 
 
