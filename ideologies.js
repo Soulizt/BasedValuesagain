@@ -203,6 +203,157 @@ ideologies = [
             "radc":50 
         }
     },
+    {
+        "name": "LesbiaNRx",
+        "stats": {
+            "econ":0 ,
+            "prop":0 ,
+            "scty":0 ,
+            "cult":100 ,
+            "agrs":0 ,
+            "ethi":0 ,
+            "mark":100 ,
+            "tech":100 ,
+            "dmoc":0 ,
+            "ntur":0 ,
+            "hier":100 ,
+            "radc":100 
+        }
+    },
+    {
+        "name": "Agorism",
+        "stats": {
+            "econ":85 ,
+            "prop":30 ,
+            "scty":75 ,
+            "cult":50 ,
+            "agrs":85 ,
+            "ethi":50 ,
+            "mark":85 ,
+            "tech":50 ,
+            "dmoc":50 ,
+            "ntur":50 ,
+            "hier":30 ,
+            "radc":30 
+        }
+    },
+    {
+        "name": "LesbiaNRx",
+        "stats": {
+            "econ":0 ,
+            "prop":0 ,
+            "scty":0 ,
+            "cult":100 ,
+            "agrs":0 ,
+            "ethi":0 ,
+            "mark":100 ,
+            "tech":100 ,
+            "dmoc":0 ,
+            "ntur":0 ,
+            "hier":100 ,
+            "radc":100 
+        }
+    },
+    {
+        "name": "Mutualism",
+        "stats": {
+            "econ":80 ,
+            "prop":70 ,
+            "scty":50 ,
+            "cult":60 ,
+            "agrs":60 ,
+            "ethi":80 ,
+            "mark":75 ,
+            "tech":60 ,
+            "dmoc":80 ,
+            "ntur":50 ,
+            "hier":40 ,
+            "radc":50 
+        }
+    },
+    {
+        "name": "Conservative Anarchism",
+        "stats": {
+            "econ":60 ,
+            "prop":50 ,
+            "scty":40 ,
+            "cult":20 ,
+            "agrs":50 ,
+            "ethi":90 ,
+            "mark":60 ,
+            "tech":30 ,
+            "dmoc":40 ,
+            "ntur":40 ,
+            "hier":70 ,
+            "radc":30 
+        }
+    },
+    {
+        "name": "Queer Anarchism",
+        "stats": {
+            "econ":40 ,
+            "prop":50 ,
+            "scty":50 ,
+            "cult":90 ,
+            "agrs":70 ,
+            "ethi":70 ,
+            "mark":40 ,
+            "tech":70 ,
+            "dmoc":60 ,
+            "ntur":60 ,
+            "hier":30 ,
+            "radc":50 
+        }
+    },
+    {
+        "name": "Xenofeminism",
+        "stats": {
+            "econ":10 ,
+            "prop":80 ,
+            "scty":100 ,
+            "cult":90 ,
+            "agrs":80 ,
+            "ethi":10 ,
+            "mark":20 ,
+            "tech":90 ,
+            "dmoc":50 ,
+            "ntur":70 ,
+            "hier":10 ,
+            "radc":70 
+        }
+    },
+    {
+        "name": "Ego-Communism",
+        "stats": {
+            "econ":20 ,
+            "prop":90 ,
+            "scty":85 ,
+            "cult":90 ,
+            "agrs":60 ,
+            "ethi":10 ,
+            "mark":0 ,
+            "tech":60 ,
+            "dmoc":50 ,
+            "ntur":65 ,
+            "hier":10 ,
+            "radc":80 
+        }
+    },
+        "name": "Anarcho-Individualism",
+        "stats": {
+            "econ":50 ,
+            "prop":50 ,
+            "scty":90 ,
+            "cult":75 ,
+            "agrs":70 ,
+            "ethi":30 ,
+            "mark":50 ,
+            "tech":50 ,
+            "dmoc":40 ,
+            "ntur":55 ,
+            "hier":10 ,
+            "radc":50 
 ];
+
 
 
