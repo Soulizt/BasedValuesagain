@@ -419,14 +419,22 @@ stats"></a></div></noscript>
         if (heterosexual > 30) {ctx.fillText(heterosexual + "%", 670, 1437.5)}
         if (boring  > 30) {ctx.fillText(boring + "%", 670, 1557.5)}
 
-        ctx.font="300 30px Montserrat"
-        ctx.fillText("Soulizt.github.io", 780, 60)
-		ctx.fillText(version, 780, 90)
+        ctx.font="300 25px Montserrat"
+        ctx.fillText("Soulizt.github.io", 820, 60)
+		ctx.fillText(version, 820, 90)
         ctx.textAlign="center"
         ctx.fillText("Economic Axis: " + document.getElementById("economic-label").innerHTML, 400, 175)
         ctx.fillText("Property Axis: " + document.getElementById("diplomatic-label").innerHTML, 400, 295)
         ctx.fillText("Societal Axis: " + document.getElementById("state-label").innerHTML, 400, 415)
         ctx.fillText("Cultural Axis: " + document.getElementById("society-label").innerHTML, 400, 535)
+	    ctx.fillText("Aggression Axis: " + document.getElementById("serenity-label").innerHTML, 400, 655)
+        ctx.fillText("Ethics Axis: " + document.getElementById("human-label").innerHTML, 400, 775)
+        ctx.fillText("Technology Axis: " + document.getElementById("cashdollar-label").innerHTML, 400, 895)
+        ctx.fillText("Participation Axis: " + document.getElementById("techy-label").innerHTML, 400, 1015)
+        ctx.fillText("Democracy Axis: " + document.getElementById("democracy-label").innerHTML, 400, 1135)
+        ctx.fillText("Environmental Axis: " + document.getElementById("natural-label").innerHTML, 400, 1255)
+        ctx.fillText("Structure Axis: " + document.getElementById("hiersexual-label").innerHTML, 400, 1375)
+        ctx.fillText("Radicality Axis: " + document.getElementById("radical-label").innerHTML, 400, 1495)
 
         document.getElementById("banner").src = c.toDataURL();
     }
