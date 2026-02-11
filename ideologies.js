@@ -339,6 +339,7 @@ ideologies = [
             "radc":80 
         }
     },
+    {
         "name": "Anarcho-Individualism",
         "stats": {
             "econ":50 ,
@@ -356,6 +357,7 @@ ideologies = [
         }
     }
 ];
+
 
 
 
