@@ -354,37 +354,37 @@ stats"></a></div></noscript>
         ctx.fillStyle="#9c27b0"
         ctx.fillRect(682-5.6*progress, 544, 5.6*progress-2, 72)
   		ctx.fillStyle="#f44336"
-        ctx.fillRect(120, 184, 5.6*serenity-2, 72)
+        ctx.fillRect(120, 664, 5.6*serenity-2, 72)
         ctx.fillStyle="#00897b"
-        ctx.fillRect(682-5.6*violent, 184, 5.6*violent-2, 72)
+        ctx.fillRect(682-5.6*violent, 664, 5.6*violent-2, 72)
         ctx.fillStyle="#ff9800"
-        ctx.fillRect(120, 304, 5.6*human-2, 72)
+        ctx.fillRect(120, 784, 5.6*human-2, 72)
         ctx.fillStyle="#03a9f4"
-        ctx.fillRect(682-5.6*inhuman, 304, 5.6*inhuman-2, 72)
+        ctx.fillRect(682-5.6*inhuman, 784, 5.6*inhuman-2, 72)
         ctx.fillStyle="#ffeb3b"
-        ctx.fillRect(120, 424, 5.6*cashdollar-2, 72)
+        ctx.fillRect(120, 904, 5.6*cashdollar-2, 72)
         ctx.fillStyle="#3f51b5"
-        ctx.fillRect(682-5.6*planned, 424, 5.6*planned-2, 72)
+        ctx.fillRect(682-5.6*planned, 904, 5.6*planned-2, 72)
         ctx.fillStyle="#8bc34a"
-        ctx.fillRect(120, 544, 5.6*techy-2, 72)
+        ctx.fillRect(120, 1024, 5.6*techy-2, 72)
         ctx.fillStyle="#9c27b0"
-        ctx.fillRect(682-5.6*monke, 544, 5.6*monke-2, 72)
+        ctx.fillRect(682-5.6*monke, 1024, 5.6*monke-2, 72)
 		ctx.fillStyle="#f44336"
-        ctx.fillRect(120, 184, 5.6*democracy-2, 72)
+        ctx.fillRect(120, 1144, 5.6*democracy-2, 72)
         ctx.fillStyle="#00897b"
-        ctx.fillRect(682-5.6*lithit, 184, 5.6*lithit-2, 72)
+        ctx.fillRect(682-5.6*lithit, 1144, 5.6*lithit-2, 72)
         ctx.fillStyle="#ff9800"
-        ctx.fillRect(120, 304, 5.6*natural-2, 72)
+        ctx.fillRect(120, 1264, 5.6*natural-2, 72)
         ctx.fillStyle="#03a9f4"
-        ctx.fillRect(682-5.6*industry, 304, 5.6*industry-2, 72)
+        ctx.fillRect(682-5.6*industry, 1264, 5.6*industry-2, 72)
         ctx.fillStyle="#ffeb3b"
-        ctx.fillRect(120, 424, 5.6*hiersexual-2, 72)
+        ctx.fillRect(120, 1384, 5.6*hiersexual-2, 72)
         ctx.fillStyle="#3f51b5"
-        ctx.fillRect(682-5.6*heterosexual, 424, 5.6*heterosexual-2, 72)
+        ctx.fillRect(682-5.6*heterosexual, 1384, 5.6*heterosexual-2, 72)
         ctx.fillStyle="#8bc34a"
-        ctx.fillRect(120, 544, 5.6*radical-2, 72)
+        ctx.fillRect(120, 1504, 5.6*radical-2, 72)
         ctx.fillStyle="#9c27b0"
-        ctx.fillRect(682-5.6*boring, 544, 5.6*boring-2, 72)
+        ctx.fillRect(682-5.6*boring, 1504, 5.6*boring-2, 72)
         ctx.fillStyle="#222222"
         ctx.font="700 80px Montserrat"
         ctx.textAlign="left"
@@ -397,11 +397,27 @@ stats"></a></div></noscript>
         if (property  > 30) {ctx.fillText(property + "%", 130, 357.5)}
         if (individual  > 30) {ctx.fillText(individual + "%", 130, 477.5)}
         if (tradition > 30) {ctx.fillText(tradition + "%", 130, 597.5)}
+        if (serenity  > 30) {ctx.fillText(serenity + "%", 130, 717.5)}
+        if (human  > 30) {ctx.fillText(human + "%", 130, 837.5)}
+        if (cashdollar  > 30) {ctx.fillText(cashdollar + "%", 130, 957.5)}
+        if (techy > 30) {ctx.fillText(techy + "%", 130, 1077.5)}
+        if (democracy  > 30) {ctx.fillText(democracy + "%", 130, 1197.5)}
+        if (natural  > 30) {ctx.fillText(natural + "%", 130, 1317.5)}
+        if (hiersexual  > 30) {ctx.fillText(hiersexual + "%", 130, 1437.5)}
+        if (radical > 30) {ctx.fillText(radical + "%", 130, 1557.5)}
         ctx.textAlign="right"
         if (antiec    > 30) {ctx.fillText(antiec + "%", 670, 237.5)}
         if (commune    > 30) {ctx.fillText(commune + "%", 670, 357.5)}
         if (collect > 30) {ctx.fillText(collect + "%", 670, 477.5)}
         if (progress  > 30) {ctx.fillText(progress + "%", 670, 597.5)}
+        if (violent    > 30) {ctx.fillText(violent + "%", 670, 717.5)}
+        if (inhuman    > 30) {ctx.fillText(inhuman + "%", 670, 837.5)}
+        if (planned > 30) {ctx.fillText(planned + "%", 670, 957.5)}
+        if (monke  > 30) {ctx.fillText(monke + "%", 670, 1077.5)}
+        if (lithit    > 30) {ctx.fillText(lithit + "%", 670, 1197.5)}
+        if (industry    > 30) {ctx.fillText(industry + "%", 670, 1317.5)}
+        if (heterosexual > 30) {ctx.fillText(heterosexual + "%", 670, 1437.5)}
+        if (boring  > 30) {ctx.fillText(boring + "%", 670, 1557.5)}
 
         ctx.font="300 30px Montserrat"
         ctx.fillText("Soulizt.github.io", 780, 60)
