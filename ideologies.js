@@ -353,7 +353,10 @@ ideologies = [
             "ntur":55 ,
             "hier":10 ,
             "radc":50 
+        }
+    }
 ];
+
 
 
 
